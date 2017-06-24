@@ -10,31 +10,81 @@
         {
             "menuOptImg": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "icon_calendar_pink_256.png"
             },
             "menuOptLbl": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "No te lo pierdas!"
             }
         },
         {
             "menuOptImg": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "icon_location_pink_256.png"
             },
             "menuOptLbl": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "Cómo llegar"
             }
         },
         {
             "menuOptImg": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "icon_schedule_pink_256.png"
             },
             "menuOptLbl": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "La velada"
+            }
+        },
+        {
+            "menuOptImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_etiquette_pink_256.png"
+            },
+            "menuOptLbl": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "La etiqueta"
+            }
+        },
+        {
+            "menuOptImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_menu_pink_256.png"
+            },
+            "menuOptLbl": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "El menú"
+            }
+        },
+        {
+            "menuOptImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_gift_pink_256.png"
+            },
+            "menuOptLbl": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lista de boda"
+            }
+        },
+        {
+            "menuOptImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_attendance_pink_256.png"
+            },
+            "menuOptLbl": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Cuenten conmigo"
+            }
+        },
+        {
+            "menuOptImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_contact_pink_256.png"
+            },
+            "menuOptLbl": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Contactos"
             }
         }
     ],
@@ -72,7 +122,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "containerweight": 100,
-    "counter": "02",
+    "counter": "07",
     "docksectionheaders": false,
     "editstyle": "none",
     "focusedindex": null,
@@ -107,7 +157,7 @@
     "pf": "tempFrm",
     "retainselection": false,
     "rowTemplateId": "f5ffa13ca16c492aaa9de7ec775f792a",
-    "rowcounter": 2,
+    "rowcounter": 7,
     "rowfocusskin": "sb46ab702125466dbfa4135014e80cab",
     "rowskin": "s42e1e77fdc44724b1c54f90740534af",
     "rowtemplate": "FBox0a195fbd179fd47",
