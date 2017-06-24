@@ -1,35 +1,38 @@
 {
-	"splashScreen": {
-		"mobile": {
-			"iphone": {
-				"splashImage": "splash.png"
-			},
-			"android": {},
-			"winphone8": {},
-			"winphone10": {},
-			"spa": {},
-			"spaip": {},
-			"spaan": {},
-			"spabb": {},
-			"spawinphone8": {}
-		},
-		"tablet": {
-			"ipad": {
-				"landscape": {
-					"splashImage": "splashland.png"
-				},
-				"splashImage": "splash.png"
-			},
-			"android": {},
-			"windows8": {},
-			"spa": {},
-			"spaipad": {},
-			"spaandroidtablet": {},
-			"spawindowstablet": {}
-		},
-		"desktop": {
-			"desktopweb": {},
-			"kiosk": {}
-		}
-	}
+    "splashScreen": {
+        "mobile": {
+            "iphone": {
+                "splashImage": null
+            },
+            "android": {},
+            "winphone8": {},
+            "winphone10": {},
+            "spa": {},
+            "spaip": {},
+            "spaan": {},
+            "spabb": {},
+            "spawinphone8": {},
+            "splashImage": "bride_n_groom_title.png",
+            "showLoadingIndicator": false
+        },
+        "tablet": {
+            "ipad": {
+                "landscape": {
+                    "splashImage": "bride_n_groom_title.png"
+                },
+                "splashImage": null
+            },
+            "android": {},
+            "windows8": {},
+            "spa": {},
+            "spaipad": {},
+            "spaandroidtablet": {},
+            "spawindowstablet": {},
+            "splashImage": "bride_n_groom_title.png"
+        },
+        "desktop": {
+            "desktopweb": {},
+            "kiosk": {}
+        }
+    }
 }
