@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s04ffe9f10f74a2f838c411dce6be2b5",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s04ffe9f10f74a2f838c411dce6be2b5",
+    "id": "hideMenuBtn",
+    "info": null,
+    "isvisible": true,
+    "kuid": "babb66ee0b3d40beac384034fc972e90",
+    "name": "kony.ui.Button",
+    "parent": "mainMenuFlx",
+    "pf": "homeFrm",
+    "wType": "Button",
+    "zindex": 1
+}

@@ -7,6 +7,10 @@
         "type": "string",
         "value": "40dp"
     },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_margin_": [
         0,
         0,
@@ -20,16 +24,12 @@
         0
     ],
     "_skin_": "s8b9fad8f3654b1ca0f26e9c3abf2c6d",
-    "_src_": "wedding_icon.png",
+    "_src_": "bride_n_groom_title.png",
     "_width_": {
         "type": "string",
-        "value": "40dp"
+        "value": "150dp"
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "centery": {
         "type": "string",
         "value": "50%"
@@ -37,20 +37,20 @@
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "tempFrm",
-        "platform": "android",
+        "formID": "homeFrm",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
-    "id": "menuIconImg",
+    "id": "menuTitleImg",
     "imagescalemode": 1,
     "info": null,
     "invokedProperty": "src",
     "isvisible": true,
-    "kuid": "f2fe6fb42e754fa79661f8b980c77b00",
+    "kuid": "i9acbb9569fa4f5693abf0225279d7eb",
     "name": "kony.ui.Image2",
-    "parent": "menuHeadIconFlx",
-    "pf": "tempFrm",
+    "parent": "menuTitleFlx",
+    "pf": "homeFrm",
     "srcType": 1,
     "wType": "Image",
     "widgetalignment": 5,

@@ -44,7 +44,6 @@
         "type": "string",
         "value": "50%"
     },
-    "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
     "id": "menuOptLbl",
@@ -59,12 +58,11 @@
             "wrapping": 2
         }
     },
-    "isSegmentChild": true,
     "isvisible": true,
-    "kuid": "gaa37f2674fc4d2f82789f4198858979",
+    "kuid": "b0ac0b6b12d24154b4cae31d45268777",
     "name": "kony.ui.Label",
     "parent": "menuOptLblFlx",
-    "pf": "FBox0a195fbd179fd47",
+    "pf": "menuRowTmpl",
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

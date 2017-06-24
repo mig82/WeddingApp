@@ -5,6 +5,10 @@
         "type": "string",
         "value": "100%"
     },
+    "_left_": {
+        "type": "string",
+        "value": "-100%"
+    },
     "_margin_": [
         0,
         0,
@@ -19,37 +23,36 @@
         0
     ],
     "_percent_": true,
-    "_right_": {
-        "type": "number",
-        "value": "0"
-    },
-    "_skin_": "s2fb779600d04dcda1818f91b3346a45",
+    "_skin_": "sc4553a4d6204cc2a0b6c0a15ec3601d",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "50dp"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "menuContentFlx",
+        "hideMenuBtn"
+    ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "menuShadeFlx",
+    "id": "mainMenuFlx",
     "info": null,
     "isvisible": true,
-    "kuid": "db2949bc6220431e9381beb170ff1d98",
+    "kuid": "ia43bb20457045edb377e3ab9b0277da",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "mainMenuFlx",
-    "pf": "tempFrm",
+    "parent": "homeFrm",
+    "pf": "homeFrm",
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 1
+    "zindex": 200
 }

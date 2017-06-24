@@ -83,7 +83,7 @@
     <attributes name="wp10picturesLibrary" value="false"/>
     <attributes name="fgcolorkey" value="255,255,255"/>
     <attributes name="iosrespectimagesizecorrection" value="true"/>
-    <attributes name="winmangotiletitlekey" value="WeddingApp3"/>
+    <attributes name="winmangotiletitlekey" value="WeddingApp"/>
     <attributes name="svcdocfromenvironment" value="true"/>
     <attributes name="Removable_Storage" value="true"/>
     <attributes name="win10pfxkey" value=""/>
@@ -122,7 +122,7 @@
     <attributes name="wp10pfxkey" value=""/>
     <attributes name="ACCESS_CHECKIN_PROPERTIES" value="false"/>
     <attributes name="MOUNT_FORMAT_FILESYSTEMS" value="false"/>
-    <attributes name="lastmodifiedtime" value="1498318720475"/>
+    <attributes name="lastmodifiedtime" value="1498335784749"/>
     <attributes name="wp10microphone" value="false"/>
     <attributes name="ID_REQ_NFC" value="false"/>
     <attributes name="devicemsg" value="This device is currently not supported"/>
@@ -143,7 +143,7 @@
     <attributes name="splashlogokey" value=""/>
     <attributes name="wp81stoastcapablekey" value="Not set"/>
     <attributes name="SEND_SMS" value="false"/>
-    <attributes name="iphonebundleidentifierkey" value="com.kony.WeddingApp3"/>
+    <attributes name="iphonebundleidentifierkey" value="com.kony.WeddingApp"/>
     <attributes name="SUBSCRIBED_FEEDS_READ" value="false"/>
     <attributes name="READ_HISTORY_BOOKMARKS" value="false"/>
     <attributes name="WP8_ID_CAP_SPEECH_RECOGNITION" value="true"/>
@@ -206,7 +206,7 @@
     <attributes name="READ_SYNC_STATS" value="false"/>
     <attributes name="INTERNAL_SYSTEM_WINDOW" value="false"/>
     <attributes name="androidscreenextralarge" value="true"/>
-    <attributes name="win8displaynamekey" value="WeddingApp3"/>
+    <attributes name="win8displaynamekey" value="WeddingApp"/>
     <attributes name="SET_TIME_ZONE" value="false"/>
     <attributes name="ID_CAP_MICROPHONE" value="true"/>
     <attributes name="win8versionmajorkey" value="1"/>
@@ -219,7 +219,7 @@
     <attributes name="apmformEntry" value="true"/>
     <attributes name="enableseo" value="false"/>
     <attributes name="project.type" value="js"/>
-    <attributes name="win8shortnamekey" value="WeddingApp3"/>
+    <attributes name="win8shortnamekey" value="WeddingApp"/>
     <attributes name="access_pimdomain_calendars" value="false"/>
     <attributes name="fbxfolderpathkey" value=""/>
     <attributes name="wp10packagedisplaynamekey" value="WeddingApp3"/>
@@ -291,7 +291,7 @@
     <attributes name="wp8packagepublisherkey" value="Kony"/>
     <attributes name="WP8_ID_CAP_PHONEDIALER" value="true"/>
     <attributes name="bb10urlscheme" value=""/>
-    <attributes name="apppackagekey" value="com.orgname.WeddingApp3"/>
+    <attributes name="apppackagekey" value="com.orgname.WeddingApp"/>
     <attributes name="andtargetsdkkey" value="4.0"/>
     <attributes name="win8bgagentclassname" value=""/>
     <attributes name="wp81sdescriptionkey" value="Sample Test Application"/>
@@ -381,7 +381,7 @@
     <attributes name="wp10versionminorkey" value="0"/>
     <attributes name="Shared_User_Certificate" value="true"/>
     <attributes name="log_level" value="ERROR"/>
-    <attributes name="vendornamekey" value="KonyLabs"/>
+    <attributes name="vendornamekey" value="Mig82"/>
     <attributes name="ID_CAP_WEBBROWSERCOMPONENT" value="true"/>
     <attributes name="wp8iconicsmallkey" value=""/>
     <attributes name="apploadeventkey" value="None"/>
@@ -530,7 +530,7 @@
     <attributes name="musicLibrary" value="false"/>
     <attributes name="READ_LOGS" value="false"/>
     <attributes name="wp8flipmediumkey" value=""/>
-    <attributes name="appidkey" value="WeddingApp3"/>
+    <attributes name="appidkey" value="WeddingApp"/>
     <attributes name="iospopuptransitioncorrection" value="true"/>
     <attributes name="androidloadindicatorkey" value="true"/>
     <attributes name="CONTROL_LOCATION_UPDATES" value="false"/>

@@ -127,7 +127,7 @@
     "editstyle": "none",
     "focusedindex": null,
     "focuseditem": null,
-    "generatedtemplate": "f5ffa13ca16c492aaa9de7ec775f792a",
+    "generatedtemplate": "hb5a53f38ae74bc1bd5d83aa53a5ad88",
     "groupcells": false,
     "hasSections": false,
     "id": "menuOptsSgm",
@@ -144,7 +144,7 @@
         }
     },
     "isvisible": true,
-    "kuid": "dc07255f190f4dd586c4630eb7ffe6d2",
+    "kuid": "i0eb3e4acd4f4f9493fd8ecdc6e55915",
     "masterdata": {},
     "name": "kony.ui.SegmentedUI2",
     "needpageindicator": true,
@@ -153,23 +153,24 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "menuFlx",
-    "pf": "tempFrm",
+    "parent": "menuContentFlx",
+    "pf": "homeFrm",
     "retainselection": false,
-    "rowTemplateId": "f5ffa13ca16c492aaa9de7ec775f792a",
+    "rowTemplateId": "j7a6c99246224745b825be16a981679b",
     "rowcounter": 7,
     "rowfocusskin": "sb46ab702125466dbfa4135014e80cab",
     "rowskin": "s42e1e77fdc44724b1c54f90740534af",
-    "rowtemplate": "FBox0a195fbd179fd47",
+    "rowtemplate": "menuRowFlx",
     "screenlevelwidget": false,
     "seccounter": 0,
+    "sectionHeaderTemplateId": null,
     "sectionheaderskin": "s746ad4875684b2492234eec4e0e3220",
     "selectedRows": null,
     "selectedState": false,
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": null,
+    "selectedsectionindex": 0,
     "selectionbehavior": "default",
     "separatorrequired": false,
     "showscrollbars": false,
@@ -180,7 +181,8 @@
         "menuOptImg": "menuOptImg",
         "menuOptImgFlx": "menuOptImgFlx",
         "menuOptLbl": "menuOptLbl",
-        "menuOptLblFlx": "menuOptLblFlx"
+        "menuOptLblFlx": "menuOptLblFlx",
+        "menuRowFlx": "menuRowFlx"
     },
     "zindex": 100
 }

@@ -27,7 +27,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "mainFlx"
+        "mainFlx",
+        "mainMenuFlx"
     ],
     "containerweight": 100,
     "controllerInfo": {
