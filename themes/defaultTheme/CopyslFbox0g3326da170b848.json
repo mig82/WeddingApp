@@ -1,0 +1,11 @@
+{
+  "background_image": "background_home.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "saae8a2bbde6486898c4ab8db06ac791",
+  "wType": "FlexContainer"
+}
