@@ -40,10 +40,10 @@
     "id": "hideMenuBtn",
     "info": null,
     "isvisible": true,
-    "kuid": "babb66ee0b3d40beac384034fc972e90",
+    "kuid": "hideMenuBtn",
     "name": "kony.ui.Button",
     "parent": "mainMenuFlx",
-    "pf": "homeFrm",
+    "pf": "userwidgetmodel",
     "wType": "Button",
     "zindex": 1
 }

@@ -176,8 +176,134 @@
         }
     },
     "isvisible": true,
-    "kuid": "i0eb3e4acd4f4f9493fd8ecdc6e55915",
+    "kuid": "menuOptsSgm",
     "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "menuOptImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "icon_calendar_pink_256.png"
+                },
+                "menuOptLbl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "No te lo pierdas!"
+                },
+                "rowIdLbl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "calendar"
+                }
+            },
+            {
+                "menuOptImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "icon_location_pink_256.png"
+                },
+                "menuOptLbl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Cómo llegar"
+                },
+                "rowIdLbl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "location"
+                }
+            },
+            {
+                "menuOptImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "icon_schedule_pink_256.png"
+                },
+                "menuOptLbl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "La velada"
+                },
+                "rowIdLbl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "schedule"
+                }
+            },
+            {
+                "menuOptImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "icon_etiquette_pink_256.png"
+                },
+                "menuOptLbl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "La etiqueta"
+                },
+                "rowIdLbl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "etiquette"
+                }
+            },
+            {
+                "menuOptImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "icon_menu_pink_256.png"
+                },
+                "menuOptLbl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "El menú"
+                },
+                "rowIdLbl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "menu"
+                }
+            },
+            {
+                "menuOptImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "icon_gift_pink_256.png"
+                },
+                "menuOptLbl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Lista de boda"
+                },
+                "rowIdLbl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "gifts"
+                }
+            },
+            {
+                "menuOptImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "icon_attendance_pink_256.png"
+                },
+                "menuOptLbl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Cuenten conmigo"
+                },
+                "rowIdLbl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "attendance"
+                }
+            },
+            {
+                "menuOptImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "icon_contact_pink_256.png"
+                },
+                "menuOptLbl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Contactos"
+                },
+                "rowIdLbl": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "contact"
+                }
+            }
+        ],
+        "rowTemplateId": "j7a6c99246224745b825be16a981679b",
+        "rowtemplate": "menuRowFlx",
+        "widgetdatamap": {
+            "menuOptImg": "menuOptImg",
+            "menuOptImgFlx": "menuOptImgFlx",
+            "menuOptLbl": "menuOptLbl",
+            "menuOptLblFlx": "menuOptLblFlx",
+            "menuRowFlx": "menuRowFlx",
+            "rowIdLbl": "rowIdLbl"
+        }
+    },
     "name": "kony.ui.SegmentedUI2",
     "needpageindicator": true,
     "pageoffdotimage": "pageoffdot.png",
@@ -186,7 +312,7 @@
         "position": "bottom"
     },
     "parent": "menuContentFlx",
-    "pf": "homeFrm",
+    "pf": "userwidgetmodel",
     "retainselection": false,
     "rowTemplateId": "j7a6c99246224745b825be16a981679b",
     "rowcounter": 7,
