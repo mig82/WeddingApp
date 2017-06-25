@@ -22,6 +22,9 @@
     "addWidgetsdone": false,
     "allboxes": [],
     "android": {
+        "inTransitionConfig": {
+            "formAnimation": 3
+        },
         "needAppMenu": false,
         "psp": {
             "windowSoftInputMode": 2
@@ -59,6 +62,11 @@
         }
     },
     "iphone": {
+        "inTransitionConfig": {
+            "transitionDirection": "fromRight",
+            "transitionDuration": 0.3,
+            "transitionEffect": "transitionPush"
+        },
         "needAppMenu": false,
         "psp": {
             "inputAccessoryViewType": 4,
@@ -93,6 +101,11 @@
     "shellCSS": "iOS_iPhone6",
     "snapgridsize": 10,
     "snaptogrid": true,
+    "spa": {
+        "inTransitionConfig": {
+            "formTransition": "rightCenter"
+        }
+    },
     "spaan": {
         "needAppMenu": false
     },
@@ -110,6 +123,11 @@
     "type": 3,
     "wType": "Form",
     "winphone8": {
+        "inTransitionConfig": {
+            "inTransition": "none",
+            "transitionMode": "none",
+            "transitionSpeed": 0
+        },
         "needAppMenu": false
     }
 }
