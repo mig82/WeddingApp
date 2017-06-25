@@ -45,5 +45,5 @@
     "parent": "menuFlx",
     "pf": "homeFrm",
     "wType": "Button",
-    "zindex": 1
+    "zindex": 10
 }

@@ -18,8 +18,12 @@
         0,
         0
     ],
-    "_skin_": "s165ac27d7af45d487c622a006304e15",
-    "_text_": "Inicio2",
+    "_right_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_skin_": "sa4f41613b4f4c0390aa67c24553efe3",
+    "_text_": "Label",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -32,17 +36,14 @@
         }
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "centery": {
         "type": "string",
         "value": "50%"
     },
+    "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "titleLbl",
+    "id": "rowIdLbl",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +56,10 @@
         }
     },
     "isvisible": true,
-    "kuid": "h498118efea6400389529dfa1897010b",
+    "kuid": "ib862b836d194188893eb0d494549856",
     "name": "kony.ui.Label",
-    "parent": "titleFlx",
-    "pf": "homeFrm",
+    "parent": "menuOptLblFlx",
+    "pf": "menuRowTmpl",
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

@@ -33,7 +33,7 @@
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "presentsFrmController"
+            "name": "giftsFrmController"
         }
     },
     "currentLocale": "default",
@@ -45,7 +45,7 @@
     "enabledforidletimeout": false,
     "footer": "presentFrm_footer",
     "header": "presentFrm_header",
-    "id": "presentsFrm",
+    "id": "giftsFrm",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

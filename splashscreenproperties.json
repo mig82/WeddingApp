@@ -12,7 +12,7 @@
             "spaan": {},
             "spabb": {},
             "spawinphone8": {},
-            "splashImage": "bride_n_groom_title.png",
+            "splashImage": "splash_phone.png",
             "showLoadingIndicator": false
         },
         "tablet": {
@@ -28,7 +28,7 @@
             "spaipad": {},
             "spaandroidtablet": {},
             "spawindowstablet": {},
-            "splashImage": "bride_n_groom_title.png"
+            "splashImage": "splash_tablet.png"
         },
         "desktop": {
             "desktopweb": {},

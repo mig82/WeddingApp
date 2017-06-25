@@ -28,7 +28,9 @@
         }
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "mainFlx"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
@@ -43,8 +45,9 @@
     "device": "iPhone6",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "footer": "CopyhomeFrm0d65a2e0e10e84f_footer",
-    "header": "CopyhomeFrm0d65a2e0e10e84f_header",
+    "footer": "contactsFrm_footer",
+    "friendlyName": "contact",
+    "header": "contactsFrm_header",
     "id": "contactsFrm",
     "info": null,
     "initdone": false,

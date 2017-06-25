@@ -1,62 +1,25 @@
 define({
   
-  	showMenu: function _showMenu() {
-      	
-      	console = require('Console');
-      	console.info('Showing menu');
-      
-      	this.view.mainMenuFlx.animate(
-        kony.ui.createAnimation({
-            "100": {
-                "left": "0%",
-                "stepConfig": {
-                    "timingFunction": kony.anim.EASE
-                }
-            }
-        }), {
-            "delay": 0,
-            "iterationCount": 1,
-            "fillMode": kony.anim.FILL_MODE_FORWARDS,
-            "duration": 0.3
-        }, {
-            "animationEnd": function showMenuCallback(){}
-        });
-    },
-  
-  	hideMenu: function _hideMenu() {
-      	
-      	console = require('Console');
-      	console.info('Hiding menu');
-      
-      	this.view.mainMenuFlx.animate(
-        kony.ui.createAnimation({
-            "100": {
-                "left": "-100%",
-                "stepConfig": {
-                    "timingFunction": kony.anim.EASE
-                }
-            }
-        }),
-        {
-            "delay": 0,
-            "iterationCount": 1,
-            "fillMode": kony.anim.FILL_MODE_FORWARDS,
-            "duration": 0.3
-        },
-        {
-            "animationEnd": function hideMenuCallback(){}
-        });
-      
-    },
-    
   	init: function _init() {},
   
   	preShow: function _preShow() {},
     
   	postShow: function _postShow() {
+      	var $ctrl = this;
         var $frm = this.view;
-        $frm.menuBtn.onClick = this.showMenu;
-      	$frm.hideMenuBtn.onClick = this.hideMenu;
+      	
+      	require(['MenuCtrl'], function _reqMenuCtrlCallback(menuCtrl){
+          	$frm.menuBtn.onTouchEnd = menuCtrl.showMenu.bind($ctrl, $frm.mainMenuFlx);
+      		$frm.hideMenuBtn.onTouchEnd = menuCtrl.hideMenu.bind($ctrl, $frm.mainMenuFlx);
+          	$frm.menuOptsSgm.onRowClick = menuCtrl.selectOption.bind($ctrl, $frm.menuOptsSgm);
+        });
+      
+      	require(['Router'], function _reqRouterCallback(router){
+          	$frm.backBtn.onTouchEnd = router.go2.bind($ctrl, 'home', {});
+        });
+      	
+      
+        
     },
     
   	onHide: function _onHide() {},
@@ -72,7 +35,7 @@ define({
         $frm.onDestroy = this.onDestroy;
     },
     
-  	onNavigate: function _onNavigate() {
+  	onNavigate: function _onNavigate(context, isBackNavigation) {
         if (!this.bound) {
             this.bindFormEvents();
             this.bound = true;

@@ -40,10 +40,10 @@
     "id": "backBtn",
     "info": null,
     "isvisible": true,
-    "kuid": "d4f4793b4cab449cab4f8a737e3a9fc5",
+    "kuid": "c77ac63b06ec4824a5a58219dcb0472f",
     "name": "kony.ui.Button",
     "parent": "backFlx",
-    "pf": "homeFrm",
+    "pf": "contactsFrm",
     "wType": "Button",
     "zindex": 10
 }

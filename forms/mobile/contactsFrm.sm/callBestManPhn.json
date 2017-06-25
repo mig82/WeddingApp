@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizCall",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        3,
+        3,
+        3,
+        3
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4c4c8de0d5f45b0a2536261544255c8",
+    "_text_": "+91-999-999-8888",
+    "_top_": {
+        "type": "string",
+        "value": "375dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "49.94%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "render": false
+    },
+    "displaytext": true,
+    "id": "callBestManPhn",
+    "info": null,
+    "isvisible": true,
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "g06c9da893a2432ea24de3d68ac06753",
+    "name": "kony.ui.Phone",
+    "parent": "bodyFlx",
+    "pf": "contactsFrm",
+    "wType": "Phone",
+    "watchos": {
+        "render": false
+    },
+    "zindex": 1
+}

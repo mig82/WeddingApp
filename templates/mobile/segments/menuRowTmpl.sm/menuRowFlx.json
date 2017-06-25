@@ -35,9 +35,13 @@
             "name": "menuRowFlxController"
         }
     },
+    "disabledSkins": {
+        "focusSkin": "sc346fccb42c4c1b98cd786789889c2a"
+    },
     "enablescrolling": true,
     "id": "menuRowFlx",
     "info": null,
+    "isTemplate": true,
     "isvisible": true,
     "kuid": "a18d6d10141c4eceafb4caec1dc13ca1",
     "layouttype": 2,
