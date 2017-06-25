@@ -1,5 +1,15 @@
 define(['Router', 'Console'], function (router, console) {
-   
+
+  	function _bringMenuToForeground(menuFlx, screenMainFlx){
+    	menuFlx.zIndex = 3;
+        screenMainFlx.zIndex = 2;
+    }
+  
+  	function _sendMenuToBackground(menuFlx, screenMainFlx){
+      	menuFlx.zIndex = 1;
+        screenMainFlx.zIndex = 2;
+    }
+  
   	function _showMenu(formId, menuFlx) {
       	
       console.info('Showing menu from form ' + formId);
@@ -61,6 +71,8 @@ define(['Router', 'Console'], function (router, console) {
     }
   
     return {
+      	bringMenuToForeground: _bringMenuToForeground,
+      	sendMenuToBackground: _sendMenuToBackground,
         showMenu: _showMenu,
         hideMenu: _hideMenu,
       	selectOption: _selectOption

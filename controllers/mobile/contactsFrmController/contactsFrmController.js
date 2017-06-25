@@ -48,9 +48,7 @@ define({
     },
     
   	onNavigate: function _onNavigate(context, isBackNavigation) {
-        if (!this.bound) {
-            this.bindFormEvents();
-            this.bound = true;
-        }
+        this.bindFormEvents();
+        this.bound = true;
     }
 });

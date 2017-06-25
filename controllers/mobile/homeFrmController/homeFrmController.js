@@ -2,7 +2,8 @@ define({
   
   	init: function _init() {},
   
-  	preShow: function _preShow() {},
+  	preShow: function _preShow() {
+    },
     
   	postShow: function _postShow() {
       	var $ctrl = this;
@@ -12,11 +13,15 @@ define({
           	var menu = $frm.WeddingMenu.mainMenuFlx;
           	var menuOpts = $frm.WeddingMenu.menuOptsSgm;
           	
+          	menuCtrl.sendMenuToBackground($frm.WeddingMenu, $frm.mainFlx);
+              	
           	$frm.menuBtn.onTouchEnd = function _menuBtn_onTouchEnd(){
+              	menuCtrl.bringMenuToForeground($frm.WeddingMenu, $frm.mainFlx);
               	menuCtrl.showMenu($ctrl.view.id, menu);
             };
           
       		$frm.WeddingMenu.hideMenuBtn.onTouchEnd = function _hideBtn_onTouchEnd(){
+              	menuCtrl.sendMenuToBackground($frm.WeddingMenu, $frm.mainFlx);
               	menuCtrl.hideMenu($ctrl.view.id, menu);
             };
           
@@ -48,9 +53,7 @@ define({
     },
     
   	onNavigate: function _onNavigate(context, isBackNavigation) {
-        if (!this.bound) {
-            this.bindFormEvents();
-            this.bound = true;
-        }
+        this.bindFormEvents();
+        this.bound = true;
     }
 });
