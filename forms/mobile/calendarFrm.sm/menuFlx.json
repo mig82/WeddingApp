@@ -1,7 +1,7 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
+    "_height_": {
         "type": "string",
         "value": "50dp"
     },
@@ -23,36 +23,33 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s012aa1a770d4d5584382cfe40947809",
+    "_skin_": "sc4553a4d6204cc2a0b6c0a15ec3601d",
     "_top_": {
         "type": "string",
-        "value": "50dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "50dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "contactInfoFlx",
-        "callBridePhn",
-        "callGroomPhn",
-        "callBestManPhn",
-        "ribbonFlx"
+        "menuBtn",
+        "menuBtnImg"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "bodyFlx",
+    "id": "menuFlx",
     "info": null,
     "isvisible": true,
-    "kuid": "b197e6ec41664c628fee9338187c7e13",
+    "kuid": "f3fde24a0d974ec38516aa5b559eaa6c",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "mainFlx",
-    "pf": "contactsFrm",
+    "parent": "headFlx",
+    "pf": "calendarFrm",
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",

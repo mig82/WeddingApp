@@ -1,0 +1,70 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": "100%",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sc4553a4d6204cc2a0b6c0a15ec3601d",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": "100%",
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "WeddingMenu": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "ge501e2841964aa2867bbc1d4cf1ea4d",
+                "srcKUID": "d781ffa2d65b42c888ec7b7bf3d28c26",
+                "wType": "FlexContainer"
+            },
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "top": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "zIndex": 1
+        }
+    },
+    "id": "WeddingMenu",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "e0cc523828b440fca70bf799ff334dbe",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "giftsFrm",
+    "pf": "giftsFrm",
+    "snaptogrid": true,
+    "sourceUserWidget": "d781ffa2d65b42c888ec7b7bf3d28c26",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

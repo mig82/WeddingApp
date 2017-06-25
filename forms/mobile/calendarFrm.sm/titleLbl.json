@@ -19,7 +19,7 @@
         0
     ],
     "_skin_": "s165ac27d7af45d487c622a006304e15",
-    "_text_": "Contacto",
+    "_text_": "Evento",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -55,10 +55,10 @@
         }
     },
     "isvisible": true,
-    "kuid": "e451c58cb98144eebfc3661b0c7027d3",
+    "kuid": "h63a9d063b42461da280d6df883e33b4",
     "name": "kony.ui.Label",
     "parent": "titleFlx",
-    "pf": "contactsFrm",
+    "pf": "calendarFrm",
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

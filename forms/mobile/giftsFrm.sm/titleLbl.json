@@ -19,7 +19,7 @@
         0
     ],
     "_skin_": "s165ac27d7af45d487c622a006304e15",
-    "_text_": "Contacto",
+    "_text_": "Lista de Boda",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -55,10 +55,10 @@
         }
     },
     "isvisible": true,
-    "kuid": "e451c58cb98144eebfc3661b0c7027d3",
+    "kuid": "f34cd30fe7a545cdb48110c60f417dd6",
     "name": "kony.ui.Label",
     "parent": "titleFlx",
-    "pf": "contactsFrm",
+    "pf": "giftsFrm",
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

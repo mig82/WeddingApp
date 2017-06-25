@@ -39,7 +39,7 @@
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "giftsFrmController"
+            "name": "calendarFrmController"
         }
     },
     "currentLocale": "default",
@@ -49,10 +49,10 @@
     "device": "iPhone6",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "footer": "giftsFrm_footer",
-    "friendlyName": "gifts",
-    "header": "giftsFrm_header",
-    "id": "giftsFrm",
+    "footer": "calendarFrm_footer",
+    "friendlyName": "calendar",
+    "header": "calendarFrm_header",
+    "id": "calendarFrm",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -89,7 +89,7 @@
         "titleBar": false
     },
     "isvisible": true,
-    "kuid": "ed5fbabc644b47dfa56d9e45322a6d50",
+    "kuid": "c759e9ba588c47fb9fb0ca061d4fb5c2",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": true,

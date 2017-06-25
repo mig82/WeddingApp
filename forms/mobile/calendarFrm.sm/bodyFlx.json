@@ -23,7 +23,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s012aa1a770d4d5584382cfe40947809",
+    "_skin_": "s4237e2fd46140eebf719350e282cb40",
     "_top_": {
         "type": "string",
         "value": "50dp"
@@ -36,10 +36,6 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "contactInfoFlx",
-        "callBridePhn",
-        "callGroomPhn",
-        "callBestManPhn",
         "ribbonFlx"
     ],
     "clipbounds": true,
@@ -48,11 +44,11 @@
     "id": "bodyFlx",
     "info": null,
     "isvisible": true,
-    "kuid": "b197e6ec41664c628fee9338187c7e13",
+    "kuid": "df5b6a73f46048a5a6870f3f01fe7308",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "mainFlx",
-    "pf": "contactsFrm",
+    "pf": "calendarFrm",
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
