@@ -1,5 +1,27 @@
 define(['Router', 'Console'], function (router, console) {
 
+  	function _setUp($ctrl, $frm){
+      
+      	var menu = $frm.WeddingMenu.mainMenuFlx;
+        var menuOpts = $frm.WeddingMenu.menuOptsSgm;
+          	
+        _sendMenuToBackground($frm.WeddingMenu, $frm.mainFlx);
+              	
+        $frm.menuBtn.onTouchEnd = function _menuBtn_onTouchEnd(){
+          	_bringMenuToForeground($frm.WeddingMenu, $frm.mainFlx);
+          	_showMenu($ctrl.view.id, menu);
+        };
+          
+      	$frm.WeddingMenu.hideMenuBtn.onTouchEnd = function _hideBtn_onTouchEnd(){
+             _sendMenuToBackground($frm.WeddingMenu, $frm.mainFlx);
+             _hideMenu($ctrl.view.id, menu);
+        };
+          
+        menuOpts.onRowClick = function _menuOpts_onRowClick(){
+            _selectOption($ctrl.view.id, menu, menuOpts);
+        };
+    }
+  
   	function _bringMenuToForeground(menuFlx, screenMainFlx){
     	menuFlx.zIndex = 3;
         screenMainFlx.zIndex = 2;
@@ -71,10 +93,11 @@ define(['Router', 'Console'], function (router, console) {
     }
   
     return {
-      	bringMenuToForeground: _bringMenuToForeground,
+      	setUp: _setUp
+      	/*bringMenuToForeground: _bringMenuToForeground,
       	sendMenuToBackground: _sendMenuToBackground,
         showMenu: _showMenu,
         hideMenu: _hideMenu,
-      	selectOption: _selectOption
+      	selectOption: _selectOption*/
     };
 });
