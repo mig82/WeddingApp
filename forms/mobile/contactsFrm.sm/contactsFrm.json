@@ -29,7 +29,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "mainFlx"
+        "mainFlx",
+        "WeddingMenu"
     ],
     "containerweight": 100,
     "controllerInfo": {

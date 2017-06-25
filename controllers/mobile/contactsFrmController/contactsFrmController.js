@@ -9,13 +9,27 @@ define({
         var $frm = this.view;
       	
       	require(['MenuCtrl'], function _reqMenuCtrlCallback(menuCtrl){
-          	$frm.menuBtn.onTouchEnd = menuCtrl.showMenu.bind($ctrl, $frm.mainMenuFlx);
-      		$frm.hideMenuBtn.onTouchEnd = menuCtrl.hideMenu.bind($ctrl, $frm.mainMenuFlx);
-          	$frm.menuOptsSgm.onRowClick = menuCtrl.selectOption.bind($ctrl, $frm.menuOptsSgm);
+          	var menu = $frm.WeddingMenu.mainMenuFlx;
+          	var menuOpts = $frm.WeddingMenu.menuOptsSgm;
+          	
+          	$frm.menuBtn.onTouchEnd = function _menuBtn_onTouchEnd(){
+              	menuCtrl.showMenu($ctrl.view.id, menu);
+            };
+          
+      		$frm.WeddingMenu.hideMenuBtn.onTouchEnd = function _hideBtn_onTouchEnd(){
+              	menuCtrl.hideMenu($ctrl.view.id, menu);
+            };
+          
+          	menuOpts.onRowClick = function _menuOpts_onRowClick(){
+              	menuCtrl.selectOption($ctrl.view.id, menu, menuOpts);
+            };
+          
         });
       
       	require(['Router'], function _reqRouterCallback(router){
-          	$frm.backBtn.onTouchEnd = router.go2.bind($ctrl, 'home', {});
+          	$frm.backBtn.onTouchEnd = function _backBtn_onTouchEnd(){
+            	router.go2('home', {});
+            };
         });
       	
     },

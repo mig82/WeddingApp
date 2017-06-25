@@ -1,10 +1,10 @@
 define(['Router', 'Console'], function (router, console) {
    
-  	function _showMenu($menuFlx) {
+  	function _showMenu(formId, menuFlx) {
       	
-      console.info('Showing menu from form ' + this.view.id);
+      console.info('Showing menu from form ' + formId);
 
-      $menuFlx.animate(
+      menuFlx.animate(
         kony.ui.createAnimation({
           "100": {
             "left": "0%",
@@ -22,11 +22,11 @@ define(['Router', 'Console'], function (router, console) {
         });
     }
   
-  	function _hideMenu($menuFlx) {
+  	function _hideMenu(formId, menuFlx, hideMenuCallback) {
 
-      console.info('Hiding menu from form ' + this.view.id);
+      console.info('Hiding menu from form ' + formId);
 
-      $menuFlx.animate(
+      menuFlx.animate(
         kony.ui.createAnimation({
           "100": {
             "left": "-100%",
@@ -42,16 +42,22 @@ define(['Router', 'Console'], function (router, console) {
           "duration": 0.3
         },
         {
-          "animationEnd": function hideMenuCallback(){}
+          "animationEnd": hideMenuCallback
         });
     }
   
-  	function _selectOption($menuSgm){
+  	function _selectOption(formId, menuFlx, menuSgm){
 	    //var selectedIndex = $menuSgm.selectedIndex[0];
-    	var option = $menuSgm.selectedItems[0];
+    	var option = menuSgm.selectedItems[0];
       	console.info('Selected menu option ' + JSON.stringify(option));
-      	var state = option.rowIdLbl.text; 
-      	router.go2('contact');
+      	//var formFriendlyName = option.rowIdLbl.text;
+      	var formFriendlyName = option.rowIdLbl;
+      	//router.go2(formFriendlyName);
+      
+      	_hideMenu(formId, menuFlx, function(){
+        	router.go2(formFriendlyName);
+        });
+      	
     }
   
     return {
