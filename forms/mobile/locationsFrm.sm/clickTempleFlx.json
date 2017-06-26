@@ -2,16 +2,12 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_bottom_": {
-        "type": "number",
-        "value": "0"
+        "type": "string",
+        "value": "-25dp"
     },
     "_height_": {
         "type": "string",
-        "value": "53px"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "40dp"
     },
     "_margin_": [
         0,
@@ -27,26 +23,32 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s785a5f739a54da6961b8121672f30ac",
+    "_right_": {
+        "type": "string",
+        "value": "-25dp"
+    },
+    "_skin_": "s28db94c92ac4681a99b3dc223bedf50",
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "40dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "clickTempleImg"
+    ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "ribbonFlx",
+    "id": "clickTempleFlx",
     "info": null,
     "isvisible": true,
-    "kuid": "d731546881ff45dcb2cb625cabf10e49",
+    "kuid": "e6578aee9d894f5c939831f79b9b4d3b",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "bodyFlx",
-    "pf": "contactsFrm",
+    "parent": "goToTempleFlx",
+    "pf": "locationsFrm",
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",

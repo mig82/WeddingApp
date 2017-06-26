@@ -36,11 +36,9 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "contactInfoFlx",
         "callBridePhn",
         "callGroomPhn",
-        "callBestManPhn",
-        "ribbonFlx"
+        "callBestManPhn"
     ],
     "clipbounds": true,
     "containerweight": 100,

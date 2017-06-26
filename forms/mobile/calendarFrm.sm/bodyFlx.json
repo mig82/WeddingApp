@@ -23,7 +23,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s4237e2fd46140eebf719350e282cb40",
+    "_skin_": "se9c2b1be4e948988896a5c1d3334e56",
     "_top_": {
         "type": "string",
         "value": "50dp"
@@ -35,9 +35,7 @@
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "ribbonFlx"
-    ],
+    "children": [],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,

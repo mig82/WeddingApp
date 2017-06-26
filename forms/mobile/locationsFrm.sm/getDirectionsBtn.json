@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s065e2f91b6a4bfa8d09ed2bdeb71689",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s893f9d673a3457fb270c2744532a8d3",
+    "id": "getDirectionsBtn",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b6b1c5f541ad4eb59cf950c034cce2db",
+    "name": "kony.ui.Button",
+    "parent": "footCenterBtnFlx",
+    "pf": "locationsFrm",
+    "wType": "Button",
+    "zindex": 1
+}
