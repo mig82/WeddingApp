@@ -17,6 +17,33 @@ define({
             	router.go2('home', {});
             };
         });
+      
+      	$frm.addToCalendarBtn.onTouchEnd = function(){
+          	try{
+    
+                alert("Adding wedding event to calendar");
+
+              	kony.application.openURL("calendar://test");
+              
+                /*var ceremony = {
+                    summary: "Ceremonia Religiosa",
+                    start: "14/07/2017 19:00:00",
+                    finish:"14/07/2017 20:00:45", 
+                    alarm: 3600, //An hour before
+                    note: "En Basílica de San Miguel",
+                    access: "public" //public|private|confidential
+                };
+                kony.phone.addCalendarEvent(ceremony);
+              	kony.phone.findCalendarEvents(ceremony);*/
+              
+              	/*var ceremony = "https://www.google.com/calendar/event" + 
+                    "eid=NzIwNm0ycHE2Z2x1c2c1dDNoaG90b2xnbnAgbWlndWVsYW5nZWx4Zm1AbQ";*/
+              	
+            }
+            catch (PhoneError){
+                alert("error in addCalendarEvent:: " + PhoneError);
+            }
+        };
       	
     },
     
