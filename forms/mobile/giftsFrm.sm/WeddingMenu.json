@@ -43,14 +43,20 @@
                 "wType": "FlexContainer"
             },
             "left": {
-                "type": "string",
-                "value": "0dp"
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
             },
             "top": {
-                "type": "string",
-                "value": "0dp"
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
             },
-            "zIndex": 1
+            "zIndex": {
+                "Default": 1
+            }
         }
     },
     "id": "WeddingMenu",

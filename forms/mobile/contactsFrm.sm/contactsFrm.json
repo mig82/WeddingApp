@@ -70,20 +70,39 @@
         "needAppMenu": false,
         "psp": {
             "inputAccessoryViewType": 4,
-            "titleBarConfig": {
-                "buttonClosureLeftSideView": "",
-                "buttonClosureRightSideView": "",
-                "buttonText": "Edit",
-                "leftButtonText": "Back",
-                "leftTitle": "Back",
-                "prevFormTitle": false,
+            "titleBarAttributes": {
+                "barStyle": 0,
+                "hidesBackButton": true,
+                "kuid": "bfc87e4784fb41c696a69a45341f6588",
+                "leftBarButtonItems": [
+                    {
+                        "buttonClosureLeftSideView": "",
+                        "kuid": "efa43c94d1214f028804495d86d31fe3",
+                        "leftButtonText": "Back",
+                        "leftTitle": "Back",
+                        "prevFormTitle": false,
+                        "titleBarLeftSideView": "button",
+                        "titleClosureLeftSideView": "",
+                        "type": 4
+                    }
+                ],
+                "leftItemsSupplementBackButton": true,
+                "prompt": "",
                 "renderTitleText": true,
-                "rightTitle": "Edit",
-                "titleBarLeftSideView": "button",
-                "titleBarRightSideView": "button",
-                "titleClosureLeftSideView": "",
-                "titleClosureRightSideView": "",
-                "visible": false
+                "rightBarButtonItems": [
+                    {
+                        "enabled": true,
+                        "info": {
+                            "title": "Edit"
+                        },
+                        "kuid": "i446c5ec810f45fdaead990f9c30092f",
+                        "onClick": "",
+                        "style": 0,
+                        "type": 1
+                    }
+                ],
+                "tintColor": "333333",
+                "translucent": true
             }
         },
         "titleBar": false

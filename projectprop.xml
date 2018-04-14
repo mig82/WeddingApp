@@ -130,7 +130,7 @@
     <attributes name="KILL_BACKGROUND_PROCESSES" value="false"/>
     <attributes name="andmanifesttags" value=""/>
     <attributes name="BIND_APPWIDGET" value="false"/>
-    <attributes name="apmservicerequest" value="true"/>
+    <attributes name="apmservicerequest" value="false"/>
     <attributes name="Internet(Client)" value="true"/>
     <attributes name="wp10packagepublichernamekey" value="KonyLabs"/>
     <attributes name="SELECTED_THEME" value="default"/>
@@ -564,7 +564,7 @@
     <attributes name="Videos_Library_Access" value="true"/>
     <attributes name="wp8enforceMaxMemory" value="false"/>
     <attributes name="wp10codeGeneration" value="false"/>
-    <attributes name="build" value="release"/>
+    <attributes name="build" value="debug"/>
     <attributes name="certs_key_store_type" value="JKS"/>
     <attributes name="spaandroidtab800basefontsize" value="12"/>
     <attributes name="defaultlocalekey" value=""/>
