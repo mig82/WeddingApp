@@ -44,7 +44,6 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone6",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "friendlyName": "home",
@@ -109,11 +108,7 @@
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "paddinginpixel": false,
-    "platform": "iphone",
-    "prevDevice": "GalaxyS5",
-    "prevPlatform": "android",
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhone6",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spa": {

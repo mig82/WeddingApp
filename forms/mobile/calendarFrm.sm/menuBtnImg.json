@@ -38,7 +38,6 @@
     "context": {
         "channel": "mobile",
         "formID": "calendarFrm",
-        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },

@@ -46,7 +46,6 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone6",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "footer": "calendarFrm_footer",
@@ -113,11 +112,7 @@
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "paddinginpixel": false,
-    "platform": "iphone",
-    "prevDevice": "iPhone6",
-    "prevPlatform": "iphone",
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhone6",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spa": {

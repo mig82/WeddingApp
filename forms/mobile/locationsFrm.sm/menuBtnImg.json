@@ -38,7 +38,6 @@
     "context": {
         "channel": "mobile",
         "formID": "locationsFrm",
-        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
