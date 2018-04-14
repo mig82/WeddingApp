@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_d305706a3453452db097243e240ec5e8": {
+        "id": "AS_AppEvents_d305706a3453452db097243e240ec5e8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e3127baef8f74b00a9cfae39fdf33d77",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.setApplicationProperties({statusBarColor : \"b33661\"});",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
