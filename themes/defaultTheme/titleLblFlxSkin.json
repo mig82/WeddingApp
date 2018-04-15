@@ -1,5 +1,6 @@
 {
   "android": {
+    "font_name": "AreYouFreakinSerious",
     "font_size": 95,
     "isForked": false
   },
@@ -10,72 +11,86 @@
   "border_type": 0,
   "border_width": 0,
   "desktopweb": {
+    "font_name": "AreYouFreakinSerious",
     "font_size": 333,
     "isForked": false
   },
   "fontSizeInPx": true,
   "font_color": "ffffffff",
-  "font_name": "Helvetica",
+  "font_name": "AreYouFreakinSerious",
   "font_size": 143,
   "font_style": "normal",
   "font_weight": "normal",
   "ipad": {
+    "font_name": "AreYouFreakinSerious",
     "font_size": 143,
     "isForked": false
   },
   "iphone": {
-    "font_name": "Are-You-Freakin-Serious",
+    "font_name": "AreYouFreakinSerious",
     "font_size": 143,
     "isForked": false
   },
   "isDefaultSkin": false,
   "kiosk": {
+    "font_name": "None",
     "font_size": 250,
     "isForked": false
   },
   "kuid": "s165ac27d7af45d487c622a006304e15",
   "spaan": {
+    "font_name": "AreYouFreakinSerious",
     "font_size": 167,
     "isForked": false
   },
   "spaandroidtablet": {
+    "font_name": "AreYouFreakinSerious",
     "font_size": 167,
     "isForked": false
   },
   "spabb": {
+    "font_name": "AreYouFreakinSerious",
     "font_size": 167,
     "isForked": false
   },
   "spaip": {
+    "font_name": "AreYouFreakinSerious",
     "font_size": 167,
     "isForked": false
   },
   "spaipad": {
+    "font_name": "AreYouFreakinSerious",
     "font_size": 167,
     "isForked": false
   },
   "spawindowstablet": {
+    "font_name": "AreYouFreakinSerious",
     "font_size": 167,
     "isForked": false
   },
   "spawinphone8": {
+    "font_name": "AreYouFreakinSerious",
     "font_size": 167,
     "isForked": false
   },
   "tabrcandroid": {
+    "font_name": "AreYouFreakinSerious",
     "font_size": 237,
     "isForked": false
   },
   "wType": "Label",
   "watchos": {
+    "font_name": "AreYouFreakinSerious",
     "font_size": 143,
     "isForked": false
   },
   "windows8": {
+    "font_name": "None",
     "font_size": 98,
     "isForked": false
   },
   "winphone8": {
+    "font_name": "AreYouFreakinSerious",
     "font_size": 133,
     "isForked": false
   }
