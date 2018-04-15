@@ -1,7 +1,11 @@
 {
   "android": {
     "font_name": "AreYouFreakinSerious",
-    "font_size": 95,
+    "font_size": 143,
+    "isForked": false
+  },
+  "androidwearos": {
+    "font_size": 286,
     "isForked": false
   },
   "background_color": "00000000",
@@ -12,86 +16,86 @@
   "border_width": 0,
   "desktopweb": {
     "font_name": "AreYouFreakinSerious",
-    "font_size": 333,
+    "font_size": 667,
     "isForked": false
   },
   "fontSizeInPx": true,
   "font_color": "ffffffff",
   "font_name": "AreYouFreakinSerious",
-  "font_size": 143,
+  "font_size": 190,
   "font_style": "normal",
   "font_weight": "normal",
   "ipad": {
     "font_name": "AreYouFreakinSerious",
-    "font_size": 143,
+    "font_size": 286,
     "isForked": false
   },
   "iphone": {
     "font_name": "AreYouFreakinSerious",
-    "font_size": 143,
+    "font_size": 190,
     "isForked": false
   },
   "isDefaultSkin": false,
   "kiosk": {
     "font_name": "AreYouFreakinSerious",
-    "font_size": 250,
+    "font_size": 500,
     "isForked": false
   },
   "kuid": "s165ac27d7af45d487c622a006304e15",
   "spaan": {
     "font_name": "AreYouFreakinSerious",
-    "font_size": 167,
+    "font_size": 222,
     "isForked": false
   },
   "spaandroidtablet": {
     "font_name": "AreYouFreakinSerious",
-    "font_size": 167,
+    "font_size": 222,
     "isForked": false
   },
   "spabb": {
     "font_name": "AreYouFreakinSerious",
-    "font_size": 167,
+    "font_size": 222,
     "isForked": false
   },
   "spaip": {
     "font_name": "AreYouFreakinSerious",
-    "font_size": 167,
+    "font_size": 222,
     "isForked": false
   },
   "spaipad": {
     "font_name": "AreYouFreakinSerious",
-    "font_size": 167,
+    "font_size": 222,
     "isForked": false
   },
   "spawindowstablet": {
     "font_name": "AreYouFreakinSerious",
-    "font_size": 167,
+    "font_size": 222,
     "isForked": false
   },
   "spawinphone8": {
     "font_name": "AreYouFreakinSerious",
-    "font_size": 167,
+    "font_size": 222,
     "isForked": false
   },
   "tabrcandroid": {
     "font_name": "AreYouFreakinSerious",
-    "font_size": 237,
+    "font_size": 474,
     "isForked": false
   },
   "wType": "Label",
   "watchos": {
     "font_name": "AreYouFreakinSerious",
-    "font_size": 143,
+    "font_size": 286,
     "isForked": false
   },
   "windows8": {
     "font_name": "AreYouFreakinSerious",
-    "font_size": 98,
+    "font_size": 195,
     "isForked": false
   },
   "winphone8": {
     "font_name": "AreYouFreakinSerious",
-    "font_size": 133,
+    "font_size": 267,
     "isForked": false
   }
 }
