@@ -1,0 +1,82 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sc4553a4d6204cc2a0b6c0a15ec3601d",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "WeddingMenu": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "f6298ddd044744b18a7aa618c38cad6c",
+                "srcKUID": "d781ffa2d65b42c888ec7b7bf3d28c26",
+                "wType": "FlexContainer"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "zIndex": {
+                "Default": 1
+            }
+        }
+    },
+    "id": "WeddingMenu",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "j73f05362f4b4c588e3ddd5c9ad1735d",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "attendanceFrm",
+    "pf": "attendanceFrm",
+    "snaptogrid": true,
+    "sourceUserWidget": "d781ffa2d65b42c888ec7b7bf3d28c26",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}
