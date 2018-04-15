@@ -24,8 +24,7 @@
     <attributes name="andapplicationtags" value=""/>
     <attributes name="andmanifesttags" value=""/>
     <attributes name="andmaxsdkkey" value="None"/>
-    <attributes name="andminsdkkey" value="4.0"/>
-    <attributes name="androidenablejsbindings" value="false"/>
+    <attributes name="andminsdkkey" value="4.0 (14)"/>
     <attributes name="androidInstallLocation" value="Auto"/>
     <attributes name="androidInstallLocnPref" value="false"/>
     <attributes name="androidloadindicatorkey" value="true"/>
@@ -39,8 +38,10 @@
     <attributes name="androidscreenresizeable" value="false"/>
     <attributes name="androidscreensmall" value="true"/>
     <attributes name="android_allowselfsignedcertificates" value="None"/>
-    <attributes name="andtargetsdkkey" value="4.0"/>
+    <attributes name="andtargetsdkkey" value="4.0 (14)"/>
     <attributes name="antialiaseddrawing" value="false"/>
+    <attributes name="apmappload" value="false"/>
+    <attributes name="apmapptransition" value="false"/>
     <attributes name="apmcrash" value="true"/>
     <attributes name="apmerrorunhandledexception" value="true"/>
     <attributes name="apmformEntry" value="true"/>
@@ -56,13 +57,15 @@
     <attributes name="APPLICATION_THEME" value="default"/>
     <attributes name="apploadeventkey" value="None"/>
     <attributes name="applogokey" value="0=app_icon.png,1=,8=,50=,42=,16=,18=,48=,43=,1000=,1001=,1002=,9999=,9998=,9997="/>
-    <attributes name="appnamekey" value="Ana &amp;amp; Miguelángel"/>
+    <attributes name="appnamekey" value="Ana &amp; Miguelángel"/>
     <attributes name="Appoinments" value="true"/>
+    <attributes name="appointments" value="false"/>
     <attributes name="apppackagekey" value="com.orgname.WeddingApp"/>
     <attributes name="apptitle" value=""/>
     <attributes name="appversioncode" value="1"/>
     <attributes name="appversionkey" value="1.0.0"/>
     <attributes name="AUTHENTICATE_ACCOUNTS" value="false"/>
+    <attributes name="backgroundMediaPlayback" value="false"/>
     <attributes name="backgroundmodes" value="Disabled"/>
     <attributes name="backward_compatibility_mode" value="false"/>
     <attributes name="BATTERY_STATS" value="false"/>
@@ -86,6 +89,7 @@
     <attributes name="BIND_WALLPAPER" value="false"/>
     <attributes name="blockedChatMessages" value="false"/>
     <attributes name="BLUETOOTH" value="false"/>
+    <attributes name="bluetooth" value="false"/>
     <attributes name="BLUETOOTH_ADMIN" value="false"/>
     <attributes name="BRICK" value="false"/>
     <attributes name="BROADCAST_PACKAGE_REMOVED" value="false"/>
@@ -99,11 +103,6 @@
     <attributes name="CALL_PRIVILEGED" value="false"/>
     <attributes name="CAMERA" value="false"/>
     <attributes name="camerasettings" value=""/>
-    <attributes name="certs_key_store_pwd" value="kds/0eUc+i3BqFqSkpCk4g=="/>
-    <attributes name="certs_key_store_type" value="JKS"/>
-    <attributes name="certs_ssl_algorithm" value="TLS"/>
-    <attributes name="certs_trust_store_pwd" value="kds/0eUc+i3BqFqSkpCk4g=="/>
-    <attributes name="certs_trust_store_type" value="JKS"/>
     <attributes name="CHANGE_COMPONENT_ENABLED_STATE" value="false"/>
     <attributes name="CHANGE_CONFIGURATION" value="false"/>
     <attributes name="CHANGE_NETWORK_STATE" value="false"/>
@@ -112,24 +111,12 @@
     <attributes name="chat" value="false"/>
     <attributes name="CLEAR_APP_CACHE" value="false"/>
     <attributes name="CLEAR_APP_USER_DATA" value="false"/>
-    <attributes name="cloud_account_guid" value="76021c6c-1554-4b6a-89f9-c4f4fae8424c"/>
-    <attributes name="cloud_account_id" value="100000146"/>
-    <attributes name="cloud_config_ipaddress_list" value=""/>
-    <attributes name="cloud_env_GUID" value="926b44b2-7285-4b19-a160-628ae3b5d809"/>
-    <attributes name="cloud_env_name" value="Prateek-US TL"/>
-    <attributes name="cloud_http_redirect" value="false"/>
-    <attributes name="cloud_selected_ipaddress_list" value=""/>
-    <attributes name="cloud_url" value="https://mydevcloud.konycloud.com"/>
-    <attributes name="cloud_web_xml_custom_filters" value=""/>
-    <attributes name="cloud_web_xml_custom_listeners" value=""/>
-    <attributes name="cloud_web_xml_custom_mappings" value=""/>
-    <attributes name="cloud_web_xml_custom_others" value=""/>
     <attributes name="codeGeneration" value="false"/>
+    <attributes name="contacts" value="false"/>
     <attributes name="Contacts" value="true"/>
     <attributes name="CONTROL_LOCATION_UPDATES" value="false"/>
     <attributes name="createdgaversion" value="7.3.0"/>
-    <attributes name="currentgaversion" value="7.3.0.GA_v201704051416"/>
-    <attributes name="customgcmbroadcastreceiver" value=""/>
+    <attributes name="currentgaversion" value="8.1.16.v201804031743"/>
     <attributes name="deeplinkkey" value="None"/>
     <attributes name="defaultlocalekey" value=""/>
     <attributes name="defaultlocalekey" value=""/>
@@ -149,7 +136,6 @@
     <attributes name="DisableApplicationScreenshot" value="false"/>
     <attributes name="disablehttpskey" value="false"/>
     <attributes name="DISABLE_KEYGUARD" value="false"/>
-    <attributes name="documentsLibrary" value="false"/>
     <attributes name="Documents_Library_Access" value="true"/>
     <attributes name="DUMP" value="false"/>
     <attributes name="enableactionbar" value="false"/>
@@ -161,7 +147,6 @@
     <attributes name="enablefocushtml5iphonbb" value="false"/>
     <attributes name="enableIdForAutomation" value="false"/>
     <attributes name="enablelocalnotifications" value="false"/>
-    <attributes name="enablepushnotifications" value="false"/>
     <attributes name="enablesearchbar" value="false"/>
     <attributes name="enableseo" value="false"/>
     <attributes name="enterpriseAuthentication" value="false"/>
@@ -185,6 +170,10 @@
     <attributes name="HARDWARE_TEST" value="false"/>
     <attributes name="Home_or_Work_Networking" value="true"/>
     <attributes name="hostkey" value=""/>
+    <attributes name="hybdridcontextkey" value=""/>
+    <attributes name="hybridaddrkey" value=""/>
+    <attributes name="hybridhttpsportkey" value=""/>
+    <attributes name="hybridportkey" value=""/>
     <attributes name="ID_CAP_APPOINTMENTS" value="true"/>
     <attributes name="ID_CAP_CAMERA" value="false"/>
     <attributes name="ID_CAP_CONTACTS" value="true"/>
@@ -222,26 +211,46 @@
     <attributes name="internetClient" value="false"/>
     <attributes name="internetClientServer" value="false"/>
     <attributes name="ioscheckboxcorrection" value="true"/>
-    <attributes name="iosenablejsbindings" value="false"/>
     <attributes name="iospopuptransitioncorrection" value="true"/>
     <attributes name="iosrespectimagesizecorrection" value="true"/>
     <attributes name="iostextboxpaddingcorrection" value="true"/>
     <attributes name="ipadlandscapemodekey" value="false"/>
     <attributes name="ipadportraitmodekey" value="true"/>
+    <attributes name="ipad_appicon_1x_76" value=""/>
+    <attributes name="ipad_appicon_2x_76" value=""/>
+    <attributes name="ipad_notificationicon_1x_20" value=""/>
+    <attributes name="ipad_notificationicon_2x_20" value=""/>
+    <attributes name="ipad_proappicon_2x_83Point5" value=""/>
+    <attributes name="ipad_settingsicon_1x_29" value=""/>
+    <attributes name="ipad_settingsicon_2x_29" value=""/>
+    <attributes name="ipad_spotlighticon_1x_40" value=""/>
+    <attributes name="ipad_spotlighticon_2x_40" value=""/>
     <attributes name="iphonebundleidentifierkey" value="com.kony.WeddingApp"/>
     <attributes name="iphonebundleversionkey" value="1.0"/>
     <attributes name="iphoneipadglossyeffectkey" value="false"/>
+    <attributes name="iphoneipad_appstoreicon_1x_1024" value=""/>
     <attributes name="iphoneloadindicatorkey" value="true"/>
     <attributes name="iphoneurlscheme" value=""/>
     <attributes name="iphonewebshrtcutkey" value=""/>
+    <attributes name="iphone_appicon_2x_60" value=""/>
+    <attributes name="iphone_appicon_3x_60" value=""/>
+    <attributes name="iphone_notificationicon_2x_20" value=""/>
+    <attributes name="iphone_notificationicon_3x_20" value=""/>
+    <attributes name="iphone_spotlighticon_2x_29" value=""/>
+    <attributes name="iphone_spotlighticon_2x_40" value=""/>
+    <attributes name="iphone_spotlighticon_3x_29" value=""/>
+    <attributes name="iphone_spotlighticon_3x_40" value=""/>
     <attributes name="isA11yConfigEnabled" value="false"/>
     <attributes name="isCrittercismEnabled" value="false"/>
     <attributes name="isDpScaleFactor" value="true"/>
     <attributes name="isNewAppWithRespectToAndroidPackageName" value="true"/>
+    <attributes name="keyAlias" value=""/>
+    <attributes name="keyPassword" value=""/>
+    <attributes name="keyStoreFilePath" value=""/>
+    <attributes name="keyStorePassword" value=""/>
     <attributes name="KILL_BACKGROUND_PROCESSES" value="false"/>
     <attributes name="location" value="false"/>
     <attributes name="Location" value="true"/>
-    <attributes name="log_level" value="ERROR"/>
     <attributes name="MANAGE_ACCOUNTS" value="false"/>
     <attributes name="MANAGE_APP_TOKENS" value="false"/>
     <attributes name="mangoapptitlekey" value=",,,,,,"/>
@@ -301,6 +310,7 @@
     <attributes name="RECEIVE_WAP_PUSH" value="false"/>
     <attributes name="RECORD_AUDIO" value="false"/>
     <attributes name="referenceWidth" value="375"/>
+    <attributes name="remoteSystem" value="false"/>
     <attributes name="removableStorage" value="false"/>
     <attributes name="Removable_Storage" value="true"/>
     <attributes name="REORDER_TASKS" value="false"/>
@@ -344,10 +354,8 @@
     <attributes name="studiovizproject" value="true"/>
     <attributes name="SUBSCRIBED_FEEDS_READ" value="false"/>
     <attributes name="SUBSCRIBED_FEEDS_WRITE" value="false"/>
+    <attributes name="support64bit" value="false"/>
     <attributes name="supportX86Devices" value="false"/>
-    <attributes name="svcdocfromenvironment" value="true"/>
-    <attributes name="svcdocrefreshdynamic" value="FALSE"/>
-    <attributes name="svcdocrefreshtime" value="-1"/>
     <attributes name="SYSTEM_ALERT_WINDOW" value="false"/>
     <attributes name="tcandroid240basefontsize" value="12"/>
     <attributes name="tcandroid320basefontsize" value="12"/>
@@ -374,6 +382,7 @@
     <attributes name="UseOpenSSLLibrary" value="false"/>
     <attributes name="userAccountInformation" value="false"/>
     <attributes name="useridkey" value=""/>
+    <attributes name="userNotificationListener" value="false"/>
     <attributes name="UseSQLCipherFIPS" value="false"/>
     <attributes name="usevizactions" value="false"/>
     <attributes name="use_camera" value="false"/>
@@ -421,6 +430,9 @@
     <attributes name="win8versionrevisionkey" value="0"/>
     <attributes name="win8widelogokey" value=""/>
     <attributes name="windesktop_allowselfsignedcertificate" value="None"/>
+    <attributes name="windesktop_disableapplicationminimize" value="false"/>
+    <attributes name="windesktop_enableBackwardCompatibility" value="false"/>
+    <attributes name="winDisableApplicationScreenshot" value="false"/>
     <attributes name="windows10guid" value=""/>
     <attributes name="windowskioskguid" value=""/>
     <attributes name="windowsloadindicatorkey" value="true"/>
@@ -448,13 +460,16 @@
     <attributes name="wintileforegroundnamekey" value="Light"/>
     <attributes name="wp10allJoyn" value="false"/>
     <attributes name="wp10applogokey" value=""/>
+    <attributes name="wp10appointments" value="false"/>
+    <attributes name="wp10backgroundMediaPlayback" value="false"/>
     <attributes name="wp10badgelogokey" value=""/>
     <attributes name="wp10blockedChatMessages" value="false"/>
+    <attributes name="wp10bluetooth" value="false"/>
     <attributes name="wp10chat" value="false"/>
     <attributes name="wp10codeGeneration" value="false"/>
+    <attributes name="wp10contacts" value="false"/>
     <attributes name="wp10descriptionkey" value="Sample Test Application"/>
     <attributes name="wp10displayname" value="WeddingApp3"/>
-    <attributes name="wp10documentsLibrary" value="false"/>
     <attributes name="wp10enablecrashlogkey" value="false"/>
     <attributes name="wp10enterpriseAuthentication" value="false"/>
     <attributes name="wp10initialRotationPreferenceKey" value="landscape"/>
@@ -475,6 +490,7 @@
     <attributes name="wp10privateNetworkClientServer" value="false"/>
     <attributes name="wp10proximity" value="false"/>
     <attributes name="wp10publisherdisplaynamekey" value=""/>
+    <attributes name="wp10remoteSystem" value="false"/>
     <attributes name="wp10removableStorage" value="false"/>
     <attributes name="wp10sharedUserCertificates" value="false"/>
     <attributes name="wp10shortnamekey" value="WeddingApp3"/>
@@ -485,6 +501,7 @@
     <attributes name="wp10tileUpdateRecurrenceKey" value=""/>
     <attributes name="wp10toastcapablekey" value="Not set"/>
     <attributes name="wp10userAccountInformation" value="false"/>
+    <attributes name="wp10userNotificationListener" value="false"/>
     <attributes name="wp10versionbuildkey" value="0"/>
     <attributes name="wp10versionmajorkey" value="1"/>
     <attributes name="wp10versionminorkey" value="0"/>
