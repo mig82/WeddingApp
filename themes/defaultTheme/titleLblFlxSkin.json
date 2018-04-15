@@ -33,7 +33,7 @@
   },
   "isDefaultSkin": false,
   "kiosk": {
-    "font_name": "None",
+    "font_name": "AreYouFreakinSerious",
     "font_size": 250,
     "isForked": false
   },
@@ -85,7 +85,7 @@
     "isForked": false
   },
   "windows8": {
-    "font_name": "None",
+    "font_name": "AreYouFreakinSerious",
     "font_size": 98,
     "isForked": false
   },
