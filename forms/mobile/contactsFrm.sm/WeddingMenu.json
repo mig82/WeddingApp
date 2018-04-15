@@ -3,7 +3,10 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_children_": [],
-    "_height_": "100%",
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
     "_left_": {
         "type": "string",
         "value": "0dp"
@@ -28,7 +31,10 @@
         "type": "string",
         "value": "0dp"
     },
-    "_width_": "100%",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
     "areflexpropsreferenced": false,
     "canUpdateUI": true,
     "clipbounds": true,
