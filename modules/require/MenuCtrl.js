@@ -13,7 +13,7 @@ define(['Router', 'Console'], function (router, console) {
         };
           
       	$frm.WeddingMenu.hideMenuBtn.onTouchEnd = function _hideBtn_onTouchEnd(){
-             _sendMenuToBackground($frm.WeddingMenu, $frm.mainFlx);
+             //_sendMenuToBackground($frm.WeddingMenu, $frm.mainFlx);
              _hideMenu($ctrl.view.id, menu);
         };
           
