@@ -59,6 +59,8 @@
     "name": "kony.ui.Label",
     "parent": "titleFlx",
     "pf": "giftsFrm",
+    "texti18n": "title.gifts",
+    "textstyle": {},
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

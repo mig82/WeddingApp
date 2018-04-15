@@ -187,6 +187,7 @@
                 },
                 "menuOptLbl": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "title.calendar",
                     "text": "No te lo pierdas!"
                 },
                 "rowIdLbl": {
@@ -201,6 +202,7 @@
                 },
                 "menuOptLbl": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "title.location",
                     "text": "Cómo llegar"
                 },
                 "rowIdLbl": {
@@ -215,6 +217,7 @@
                 },
                 "menuOptLbl": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "title.schedule",
                     "text": "La velada"
                 },
                 "rowIdLbl": {
@@ -229,6 +232,7 @@
                 },
                 "menuOptLbl": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "title.etiquette",
                     "text": "La etiqueta"
                 },
                 "rowIdLbl": {
@@ -243,6 +247,7 @@
                 },
                 "menuOptLbl": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "title.menu",
                     "text": "El menú"
                 },
                 "rowIdLbl": {
@@ -257,6 +262,7 @@
                 },
                 "menuOptLbl": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "title.gifts",
                     "text": "Lista de boda"
                 },
                 "rowIdLbl": {
@@ -271,6 +277,7 @@
                 },
                 "menuOptLbl": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "title.attendance",
                     "text": "Cuenten conmigo"
                 },
                 "rowIdLbl": {
@@ -285,6 +292,7 @@
                 },
                 "menuOptLbl": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "title.contact",
                     "text": "Contactos"
                 },
                 "rowIdLbl": {

@@ -19,7 +19,7 @@
         0
     ],
     "_skin_": "s165ac27d7af45d487c622a006304e15",
-    "_text_": "RSVP",
+    "_text_": "Lista de Invitados",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -59,6 +59,7 @@
     "name": "kony.ui.Label",
     "parent": "titleFlx",
     "pf": "attendanceFrm",
+    "texti18n": "title.attendance",
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",

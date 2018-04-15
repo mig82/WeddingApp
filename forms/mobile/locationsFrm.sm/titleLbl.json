@@ -59,6 +59,7 @@
     "name": "kony.ui.Label",
     "parent": "titleFlx",
     "pf": "locationsFrm",
+    "texti18n": "title.location",
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",

@@ -59,6 +59,7 @@
     "name": "kony.ui.Label",
     "parent": "titleFlx",
     "pf": "etiquetteFrm",
+    "texti18n": "title.etiquette",
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",

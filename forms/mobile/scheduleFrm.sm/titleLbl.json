@@ -59,6 +59,7 @@
     "name": "kony.ui.Label",
     "parent": "titleFlx",
     "pf": "scheduleFrm",
+    "texti18n": "title.schedule",
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",
