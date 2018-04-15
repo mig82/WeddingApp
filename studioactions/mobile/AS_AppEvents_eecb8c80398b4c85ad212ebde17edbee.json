@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_eecb8c80398b4c85ad212ebde17edbee": {
+        "id": "AS_AppEvents_eecb8c80398b4c85ad212ebde17edbee",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ca55c913df904d0fbc8d1e40b7a4591f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//Change the background color of the Android status bar.\nkony.application.setApplicationProperties({\n\tstatusBarColor: \"b33661\"\n});",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
