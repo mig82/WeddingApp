@@ -239,7 +239,6 @@
     <attributes name="isDpScaleFactor" value="true"/>
     <attributes name="isNewAppWithRespectToAndroidPackageName" value="true"/>
     <attributes name="KILL_BACKGROUND_PROCESSES" value="false"/>
-    <attributes name="lastmodifiedtime" value="1498479185596"/>
     <attributes name="location" value="false"/>
     <attributes name="Location" value="true"/>
     <attributes name="log_level" value="ERROR"/>
@@ -568,3 +567,4 @@
     <attributes name="WRITE_SYNC_SETTINGS" value="false"/>
     <attributes name="xhtmlfavicokey" value=""/>
     <attributes name="_sys_use_consumer_push" value="false"/>
+</properties>
