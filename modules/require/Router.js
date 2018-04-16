@@ -2,8 +2,13 @@ define(['Console'], function (console) {
    	
   	function _goto(friendlyName, context){
       	console.info("Navigate to '" + friendlyName + "'");
-      	var $frm = new kony.mvc.Navigation(friendlyName);
-		$frm.navigate(context);
+
+		try{
+			(new kony.mvc.Navigation(friendlyName)).navigate(context);
+		}
+		catch(e){
+			alert(`An error occurred while trying to navigate to form by friendly name ${friendlyName}: ${e}`);
+		}
     }
   
     return {
