@@ -9,3 +9,5 @@ userwidgets/**/*.sm/*.json filter=kony_forms
 
 #If you choose to version HeadlessBuild.properties file.
 HeadlessBuild.properties filter=kony_headless_props
+
+modules/**/*.js filter=rm_whiteline
